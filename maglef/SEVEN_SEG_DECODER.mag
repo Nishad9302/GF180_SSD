@@ -1,0 +1,79 @@
+magic
+tech gf180mcuC
+magscale 1 5
+timestamp 1670260646
+<< obsm1 >>
+rect 672 1538 29288 28254
+<< metal2 >>
+rect 2184 29600 2240 30000
+rect 6440 29600 6496 30000
+rect 10696 29600 10752 30000
+rect 14952 29600 15008 30000
+rect 19208 29600 19264 30000
+rect 23464 29600 23520 30000
+rect 27720 29600 27776 30000
+rect 3752 0 3808 400
+rect 11200 0 11256 400
+rect 18648 0 18704 400
+rect 26096 0 26152 400
+<< obsm2 >>
+rect 2142 29570 2154 29600
+rect 2270 29570 6410 29600
+rect 6526 29570 10666 29600
+rect 10782 29570 14922 29600
+rect 15038 29570 19178 29600
+rect 19294 29570 23434 29600
+rect 23550 29570 27690 29600
+rect 2142 430 27762 29570
+rect 2142 400 3722 430
+rect 3838 400 11170 430
+rect 11286 400 18618 430
+rect 18734 400 26066 430
+rect 26182 400 27762 430
+<< obsm3 >>
+rect 2233 1554 27431 28238
+<< metal4 >>
+rect 2224 1538 2384 28254
+rect 9904 1538 10064 28254
+rect 17584 1538 17744 28254
+rect 25264 1538 25424 28254
+<< labels >>
+rlabel metal2 s 2184 29600 2240 30000 6 a
+port 1 nsew signal output
+rlabel metal2 s 6440 29600 6496 30000 6 b
+port 2 nsew signal output
+rlabel metal2 s 10696 29600 10752 30000 6 c
+port 3 nsew signal output
+rlabel metal2 s 14952 29600 15008 30000 6 d
+port 4 nsew signal output
+rlabel metal2 s 19208 29600 19264 30000 6 e
+port 5 nsew signal output
+rlabel metal2 s 23464 29600 23520 30000 6 f
+port 6 nsew signal output
+rlabel metal2 s 27720 29600 27776 30000 6 g
+port 7 nsew signal output
+rlabel metal2 s 3752 0 3808 400 6 i[0]
+port 8 nsew signal input
+rlabel metal2 s 11200 0 11256 400 6 i[1]
+port 9 nsew signal input
+rlabel metal2 s 18648 0 18704 400 6 i[2]
+port 10 nsew signal input
+rlabel metal2 s 26096 0 26152 400 6 i[3]
+port 11 nsew signal input
+rlabel metal4 s 2224 1538 2384 28254 6 vdd
+port 12 nsew power bidirectional
+rlabel metal4 s 17584 1538 17744 28254 6 vdd
+port 12 nsew power bidirectional
+rlabel metal4 s 9904 1538 10064 28254 6 vss
+port 13 nsew ground bidirectional
+rlabel metal4 s 25264 1538 25424 28254 6 vss
+port 13 nsew ground bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 30000 30000
+string LEFclass BLOCK
+string LEFview TRUE
+string GDS_END 435228
+string GDS_FILE /home/vrushabh/RAM/openlane/SEVEN_SEG_DECODER/runs/22_12_05_22_46/results/signoff/SEVEN_SEG_DECODER.magic.gds
+string GDS_START 92618
+<< end >>
+
